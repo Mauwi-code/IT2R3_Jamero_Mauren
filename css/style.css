@@ -1,0 +1,35 @@
+
+body{
+	width: 1000px;
+	height: 1000px;
+	background-image: url("../mauwei.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+.logo-section{
+	width: 20%;
+	margin-bottom: 10px;
+}
+
+img{
+	width: 100%;
+	float: left;
+}
+
+nav{
+	float: right;
+	width: 50%;
+	margin-top: 87px; 
+	margin-right: -800px;
+}
+
+a{
+	float: right;
+	padding: 12px;
+	margin: 10px;
+	border: 10px ridge blue;
+}
