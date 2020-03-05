@@ -1,35 +1,133 @@
-
 body{
-	width: 1000px;
-	height: 1000px;
-	background-image: url("../mauwei.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
 }
-
-
-
-.logo-section{
-	width: 20%;
-	margin-bottom: 10px;
+nav .main {
+    text-decoration: none;
+    color: rgb(133, 32, 167);
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px;
 }
-
-img{
-	width: 100%;
-	float: left;
+nav {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
 }
-
-nav{
-	float: right;
-	width: 50%;
-	margin-top: 87px; 
-	margin-right: -800px;
+header {
+    background: white;
 }
-
-a{
-	float: right;
-	padding: 12px;
-	margin: 10px;
-	border: 10px ridge blue;
+img {
+    width: 100%;
+    margin-top: 6px;
+}
+.logo-section {
+    width: 220px;
+    display: inline-block;
+}
+.logo-section img {
+    width: 100%;
+    margin-top: 4px;
+    margin-left: 50px;
+}
+nav .main:hover {
+    background: rgb(10, 233, 166);
+    border-radius: 70px;
+}
+section.banner-section {
+    background-image: url("images/goal.jpg");
+    padding: 165px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    opacity: 0.9;
+}
+section.banner-section h1 {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    border: 3px solid white;
+    background: #6f225b91;
+    color: #fdffff;
+} 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+section.aboutus-section {
+    background-color: rgb(247, 240, 173);
+    padding: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    opacity: 0.9;
+}
+section.aboutus-section h2 {
+    margin-top: -210px;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+    background: #66d2b991;
+    border: 3px solid white;
+    color: #185f5b;
+}
+div.section2-content {
+    float: left;
+    height: 230px;
+    width: 50%;
+    background: #04a59d91;
+    color: #01010c;
+}
+div.section2-content img {
+    float: right;
+    margin-top: 0px;
+    height: 230px;
+}
+section.service-section h3 {
+    font-size: 35px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid white;
+    background: #12655d91;
+    color: #05ff8c;
+}
+div.section3-content{
+    display: inline-block;
+    width: 33%;
+    border-left: 1px solid white;
+    text-align: center;
+    color: white;
+    background: #102f2291;
+}
+div.section3-content p{
+    text-align: left;
+    font-size: 20px;    
+}
+nav.buttons a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #88064e;
+}
+nav.buttons {
+    margin-right: 350px;
+}
+nav.buttons:hover {
+    background: cadetblue;
+    border-radius: 70px;
+}
+section.service-section {
+    background-image: url("images/career.jpg");
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    opacity: 0.9;
 }

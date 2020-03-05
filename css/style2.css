@@ -1,0 +1,16 @@
+body{
+	margin: 0;
+	font-family: 'Galada', cursive;
+
+}
+header{
+	background: #6b0009;
+}
+.logo-section{
+	width: 21%;
+	display: inline-block;
+}
+
+img {
+    width: 12%;
+}
